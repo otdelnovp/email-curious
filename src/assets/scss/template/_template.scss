@@ -1,0 +1,235 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+@font-face {
+    font-family: 'SFUIDisplaymedium';
+    src: url('./assets/img/fonts/SFUIDisplaymedium.eot');
+    src: url('./assets/img/fonts/SFUIDisplaymedium.eot') format('embedded-opentype'),
+         url('./assets/img/fonts/SFUIDisplaymedium.woff2') format('woff2'),
+         url('./assets/img/fonts/SFUIDisplaymedium.woff') format('woff'),
+         url('./assets/img/fonts/SFUIDisplaymedium.ttf') format('truetype'),
+         url('./assets/img/fonts/SFUIDisplaymedium.svg#SFUIDisplaymedium') format('svg');
+}
+
+// Body Styles
+body,
+html,
+.body {
+  background: #fff !important;
+}
+
+@media (max-width: $global-breakpoint) {
+
+	table.body .columns, table.body .column {
+		padding-left: 16px !important;
+		padding-right: 16px !important;
+	}
+
+}
+
+// ******* button *******
+
+.btn {
+	width: auto !important;
+	background: $primary-color;
+}
+.btn_link,
+.btn_link:hover {
+	display: block;
+	text-align: center;
+	width: 100%;
+	min-width: 240px;
+	height: 20px;
+	padding: 14px 0 12px;
+	line-height: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	background: $primary-color;
+	overflow: hidden;
+}
+.btn_inner {
+	height: 46px;
+	background: $primary-color;
+}
+.btn_border {
+	font-size: 0;
+	line-height: 0;
+	height: 1px;
+	background: $primary-color;
+}
+.btn_corner {
+	width: 25px;
+}
+.btn_corner img {
+	width: 25px;
+	height: 48px !important;
+}
+
+.btn.secondary .btn_link,
+.btn.secondary .btn_link:hover {
+	color: $primary-color;
+	background: #ffffff;
+}
+.btn.secondary .btn_inner {
+	background: #ffffff;
+}
+
+
+@media (max-width: $global-breakpoint) {
+	.btn {
+		width: 100% !important;
+	}
+}
+
+
+// ******* header *******
+
+.header .columns {
+	padding-top: 35px;
+  padding-bottom: 20px;
+}
+.header__code .columns {
+  padding-bottom: 3px;
+}
+
+.header_logo {
+	margin-bottom: 45px !important;
+}
+
+.header_icon {
+	margin-bottom: 20px !important;
+}
+
+.header_description {
+	color: #999;
+}
+
+
+// ******* unsubscribe *******
+
+.unsubscribe {
+	background: #ffe9e9;
+}
+
+.unsubscribe_link,
+.unsubscribe_link:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.unsubscribe .wrapper-inner {
+  padding: 12px 0;
+	color: #999;
+}
+
+
+// ******* contact *******
+
+.contact {
+}
+
+.contact_link,
+.contact_link:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.contact .wrapper-inner {
+  padding: 20px 0;
+}
+
+
+// ******* footer *******
+
+.footer {
+	color: #999;
+	background: #000;
+}
+
+.footer_link,
+.footer_link:hover {
+	color: #fff;
+}
+
+.footer_spacer {
+	padding: 0 5px;
+	color: #999;
+}
+
+.footer .wrapper-inner {
+  padding: 12px 0;
+}
+
+
+// ******* linker *******
+
+.linker {
+	margin: 0 auto;
+	width: 300px;
+	min-width: 0 !important;
+	color: #000;
+	background: #eee;
+	border-radius: $global-radius;
+}
+
+.linker_inner,
+.linker_code {
+	margin: 0 auto;
+	width: auto !important;
+}
+
+.linker_inner td {
+	padding: 37px 5px 35px;
+	vertical-align: middle;
+}
+.linker_value {
+	font-size: 20px;
+	line-height: 20px;
+	white-space: nowrap;
+}
+
+.linker_code td {
+	padding: 26px 0 20px;
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: bold;
+	color: #000;
+}
+
+@media (max-width: $global-breakpoint) {
+	.linker {
+		width: 100% !important;
+	}
+}
+
+
+// ******* article *******
+
+.article {
+	margin-bottom: $global-margin;
+	color: #999;
+	background: #000;
+	border-top: 1px solid #eee;
+}
+
+.article.first {
+	border-top: 0;
+}
+
+.article_image {
+	border-radius: $global-radius;
+}
+
+.article_description {
+	color: #999;
+}
+
+@media (max-width: 400px) {
+	.article_image {
+		width: 108% !important;
+		max-width: 108%;
+		margin-left: -4%;
+		margin-right: -4%;
+	}
+}

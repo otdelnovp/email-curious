@@ -231,7 +231,8 @@ html,
 
 .btn {
   width: auto !important;
-  background: #9013FE; }
+  background: #9013FE;
+  border-radius: 24px; }
 
 .btn_link,
 .btn_link:hover {

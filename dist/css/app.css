@@ -266,6 +266,9 @@ html,
   width: 25px;
   height: 48px !important; }
 
+.btn.secondary {
+  background: #ffffff; }
+
 .btn.secondary .btn_link,
 .btn.secondary .btn_link:hover {
   color: #9013FE;
@@ -286,10 +289,14 @@ html,
   padding-bottom: 3px; }
 
 .header_logo {
-  margin-bottom: 45px !important; }
+  margin-bottom: 45px !important;
+  width: 146px;
+  height: 30px; }
 
 .header_icon {
-  margin-bottom: 20px !important; }
+  margin-bottom: 20px !important;
+  width: 50px;
+  height: 50px; }
 
 .header_description {
   color: #999; }
@@ -341,9 +348,13 @@ html,
   padding: 37px 5px 35px;
   vertical-align: middle; }
 
+.linker_inner td img {
+  width: 13px;
+  height: 19px; }
+
 .linker_value {
   display: block;
-  padding-top: 5px;
+  padding-top: 3px;
   font-size: 20px;
   line-height: 20px;
   white-space: nowrap; }
@@ -373,10 +384,3 @@ html,
 
 .article_description {
   color: #999; }
-
-@media (max-width: 400px) {
-  .article_image {
-    width: 108% !important;
-    max-width: 108%;
-    margin-left: -4%;
-    margin-right: -4%; } }

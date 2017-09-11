@@ -67,6 +67,9 @@ html,
 	height: 48px !important;
 }
 
+.btn.secondary {
+	background: #ffffff;
+}
 .btn.secondary .btn_link,
 .btn.secondary .btn_link:hover {
 	color: $primary-color;
@@ -96,10 +99,14 @@ html,
 
 .header_logo {
 	margin-bottom: 45px !important;
+	width: 146px;
+	height: 30px;
 }
 
 .header_icon {
 	margin-bottom: 20px !important;
+	width: 50px;
+	height: 50px;
 }
 
 .header_description {
@@ -184,9 +191,13 @@ html,
 	padding: 37px 5px 35px;
 	vertical-align: middle;
 }
+.linker_inner td img {
+	width: 13px;
+	height: 19px;
+}
 .linker_value {
 	display: block;
-	padding-top: 5px;
+	padding-top: 3px;
 	font-size: 20px;
 	line-height: 20px;
 	white-space: nowrap;
@@ -228,11 +239,11 @@ html,
 	color: #999;
 }
 
-@media (max-width: 400px) {
-	.article_image {
-		width: 108% !important;
-		max-width: 108%;
-		margin-left: -4%;
-		margin-right: -4%;
-	}
-}
+// @media (max-width: 400px) {
+// 	.article_image {
+// 		width: 108% !important;
+// 		max-width: 108%;
+// 		margin-left: -4%;
+// 		margin-right: -4%;
+// 	}
+// }
